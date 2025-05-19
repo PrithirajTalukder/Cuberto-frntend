@@ -52,3 +52,108 @@ html,body{
     margin-top: 5px;
     font-size: 20px;
 }
+
+#homemain{
+    width: 100%;
+    padding: 12vw 12vw;
+
+}
+
+#homemain h1{
+    font-size: 1.2vw;
+    font-weight: 500;
+
+    
+}
+
+#mainbody{
+    display: flex;
+    gap: 30px;
+    
+ 
+}
+
+#mainbody h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-size: 7vw;
+    font-weight: 500;
+    line-height: 1;
+  
+    
+    
+}
+
+#homelast{
+    padding: 5vw 12vw;
+    
+}
+
+#homelast p{
+    width: 60%;
+    font-size: 1.6vw;
+    font-weight: 400;
+   
+}
+
+#homelast p::selection{
+    color: #ffff;
+    background-color: #000;
+}
+
+
+
+
+#body #fheading{
+    padding: 20vw 12vw;
+   
+      
+}
+
+#body h2{
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 1;
+}
+
+#body h2:nth-last-child(1){
+   color: transparent;
+   -webkit-text-stroke: 1px #000;
+}
+
+#fimages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #fff;
+    height: 100vh;
+    padding: 0vh 10vh;
+}
+
+#fright{
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+    
+    height: inherit;
+    margin-top: 5vw;
+}
+
+#fleft{
+    overflow: auto;
+    width: 45%;
+    border: 1px solid green;
+    height: inherit;
+}
+
+#fleft .fleftelem{
+    width: 100%;
+    height: inherit;
+    background-color: red;
+}
+
+#fright .images{
+    height: 90%;
+    width: 90%;
+    background-color: red;
+}
